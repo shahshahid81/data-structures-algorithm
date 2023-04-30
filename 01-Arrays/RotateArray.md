@@ -30,3 +30,5 @@ In the given sequence of numbers  number 8 is the largest element  followed by n
 
     #### Output
     5 6 7 1 2 3 4
+___
+[LeetCode](https://leetcode.com/problems/rotate-array/description/)

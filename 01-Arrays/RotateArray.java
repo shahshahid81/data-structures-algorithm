@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+public class RotateArray {
 
   private static void reverse(int[] array, int start, int end) {
     while (start < end) {
