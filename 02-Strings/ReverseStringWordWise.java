@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class ReverseStringWordWise {
@@ -15,21 +14,21 @@ public class ReverseStringWordWise {
     }
   }
 
-  private char[] removeExtraSpaceFromBetween(char[] inputArray) {
-    char[] processedCharacters = new char[inputArray.length];
-    int processIndex = 0;
-    for (int i = 0; i < inputArray.length; i++) {
-      if (inputArray[i] == ' ' && i > 0 && inputArray[i - 1] == ' ') {
+  private char[] removeExtraSpace(String input) {
+    int n = input.length();
+    StringBuilder processedString = new StringBuilder();
+    processedString.trimToSize();
+    for (int i = 0; i < n; i++) {
+      if (input.charAt(i) == ' ' && i > 0 && input.charAt(i - 1) == ' ') {
         continue;
       }
-      processedCharacters[processIndex++] = inputArray[i];
+      processedString.append(input.charAt(i));
     }
-    return Arrays.copyOfRange(processedCharacters, 0, processIndex);
+    return processedString.toString().trim().toCharArray();
   }
 
   public String reverseWords(String input) {
-    char[] inputArray = input.trim().toCharArray();
-    inputArray = removeExtraSpaceFromBetween(inputArray);
+    char[] inputArray = removeExtraSpace(input);
 
     reverse(inputArray, 0, inputArray.length - 1);
 

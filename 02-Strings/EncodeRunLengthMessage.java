@@ -1,27 +1,23 @@
-import java.util.Arrays;
-
 public class EncodeRunLengthMessage {
 
   public static String encode(String message) {
     int messageLength = message.length();
     if (messageLength == 0) return "";
 
-    char[] charCount = new char[messageLength * 2];
-    int i = 0, charCountIndex = 0;
-    while (i < messageLength) {
+    StringBuilder encodedMessage = new StringBuilder();
+    for (int i = 0; i < messageLength; i++) {
       char currentCharacter = message.charAt(i);
-      int count = 1, j = i + 1;
-      while (j < messageLength && currentCharacter == message.charAt(j)) {
-        j++;
+      int count = 1;
+      while (
+        i + 1 < messageLength && currentCharacter == message.charAt(i + 1)
+      ) {
+        i++;
         count++;
       }
-      charCount[charCountIndex++] = currentCharacter;
-      for (char ch : String.valueOf(count).toCharArray()) {
-        charCount[charCountIndex++] = ch;
-      }
-      i = j;
+      encodedMessage.append(currentCharacter);
+      encodedMessage.append(String.valueOf(count));
     }
 
-    return new String(Arrays.copyOfRange(charCount, 0, charCountIndex));
+    return encodedMessage.toString();
   }
 }
