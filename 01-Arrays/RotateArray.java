@@ -15,7 +15,7 @@ public class RotateArray {
   public static void rotate(int[] array, int steps) {
     reverse(array, 0, (steps % array.length) - 1);
     reverse(array, (steps % array.length), array.length - 1);
-	reverse(array, 0, array.length - 1);
+    reverse(array, 0, array.length - 1);
   }
 
   public static void main(String args[]) {
