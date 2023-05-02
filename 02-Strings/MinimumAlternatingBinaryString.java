@@ -1,4 +1,4 @@
-public class BeautifulString {
+public class MinimumAlternatingBinaryString {
 
   public int makeBeautiful(String str) {
     int zeroToOneConversion = 0, oneToZeroConversion = 0, n = str.length();
