@@ -1,3 +1,5 @@
-| Question      | Code Studio                                                                  | Leetcode | Solution                     |
-| ------------- | ---------------------------------------------------------------------------- | -------- | ---------------------------- |
-| Sum Of Zeroes | [Problem](https://www.codingninjas.com/codestudio/problems/array-sum_893287) |          | [Solution](SumOfZeroes.java) |
+| Question            | Code Studio                                                                                        | Leetcode                                               | Solution                         |
+| ------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | -------------------------------- |
+| Sum Of Zeroes       | [Problem](https://www.codingninjas.com/codestudio/problems/array-sum_893287)                       |                                                        | [Solution](SumOfZeroes.java)     |
+| Matrix Is Symmetric | [Problem](https://www.codingninjas.com/codestudio/problems/matrix-is-symmetric_799361)             |                                                        | [Solution](SymmetricMatrix.java) |
+| Inplace rotate matrix 90 degree / Rotate Image | [Problem](https://www.codingninjas.com/codestudio/problems/inplace-rotate-matrix-90-degree_839734) | [Problem](https://leetcode.com/problems/rotate-image/) | [Solution](RotateMatrix90Degree.java) |
