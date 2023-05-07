@@ -1,0 +1,5 @@
+| Question                           | Code Studio                                                                                      | Leetcode                                                                    | Solution                         |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- | -------------------------------- |
+| Make Unique Array                  | [Problem](https://www.codingninjas.com/codestudio/problems/make-unique-array_920329)             |                                                                             | [Solution](MakeUniqueArray.java) |
+| First Unique Character in a String | [Problem](https://www.codingninjas.com/codestudio/problems/first-non-repeating-character_920324) | [Problem](https://leetcode.com/problems/first-unique-character-in-a-string) | [Solution](FirstUniqueCharacter.java) |
+
