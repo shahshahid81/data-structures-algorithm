@@ -1,6 +1,6 @@
 public class SetMatrixZero {
 
-  public static void setZeros(int matrix[][]) {
+  public void setZeros(int matrix[][]) {
     int rows = matrix.length;
     int columns = matrix[0].length;
 

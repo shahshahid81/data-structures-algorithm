@@ -6,7 +6,7 @@ public class SumOfZeroes {
     return index >= 0 && index < length;
   }
 
-  public static Integer coverageOfMatrix(ArrayList<ArrayList<Integer>> mat) {
+  public Integer coverageOfMatrix(ArrayList<ArrayList<Integer>> mat) {
     int rows = mat.size();
     int columns = mat.get(0).size();
 

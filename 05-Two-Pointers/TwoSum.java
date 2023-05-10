@@ -1,6 +1,6 @@
 public class TwoSum {
 
-  public static int pairSum(int sortedArr[], int n, int target) {
+  public int pairSum(int sortedArr[], int n, int target) {
     int i = 0, j = n - 1, pairSum = 0;
     while (i < j) {
       int sum = sortedArr[i] + sortedArr[j];

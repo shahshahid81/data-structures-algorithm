@@ -1,6 +1,6 @@
 public class NonDecreasingArray {
 
-  public static boolean isPossible(int[] nums) {
+  public boolean isPossible(int[] nums) {
     int numberOfChanges = 0, changeIndex = 0;
     for (int i = 1; i < nums.length; i++) {
       if (nums[i] < nums[i - 1]) {

@@ -1,6 +1,6 @@
 public class EncodeRunLengthMessage {
 
-  public static String encode(String message) {
+  public String encode(String message) {
     int messageLength = message.length();
     if (messageLength == 0) return "";
 

@@ -9,7 +9,7 @@ public class IsSubSequence {
     return -1;
   }
 
-  public static String isSubsequence(String str1, String str2) {
+  public String isSubsequence(String str1, String str2) {
     int s1Length = str1.length(), s2Length = str2.length();
     int i = 0, j = 0;
     while (i < s1Length && j < s2Length) {

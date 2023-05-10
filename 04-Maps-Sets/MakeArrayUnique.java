@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class MakeArrayUnique {
 
   // TC: O(log n) SC: O(1)
-  public static int minElementsToRemoveUsingSort(ArrayList<Integer> arr) {
+  public int minElementsToRemoveUsingSort(ArrayList<Integer> arr) {
     Collections.sort(arr);
     int i = 0, count = 0, n = arr.size();
     while (i < n) {
@@ -21,7 +21,7 @@ public class MakeArrayUnique {
   }
 
   // TC: O(n) SC: O(n)
-  public static int minElementsToRemoveUsingSet(ArrayList<Integer> arr) {
+  public int minElementsToRemoveUsingSet(ArrayList<Integer> arr) {
     HashSet<Integer> hs = new HashSet<Integer>();
     for (Integer element : arr) {
       hs.add(element);

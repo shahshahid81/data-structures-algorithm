@@ -3,7 +3,7 @@ import java.util.HashMap;
 
 public class LongestSubArrayZeroSum {
 
-  public static int LongestSubsetWithZeroSum(ArrayList<Integer> arr) {
+  public int LongestSubsetWithZeroSum(ArrayList<Integer> arr) {
     int sum = 0, maxSubset = 0, n = arr.size();
     HashMap<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
 

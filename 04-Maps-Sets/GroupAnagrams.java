@@ -9,7 +9,7 @@ public class GroupAnagrams {
     return new String(temp);
   }
 
-  public static ArrayList<ArrayList<String>> getGroupedAnagrams(
+  public ArrayList<ArrayList<String>> getGroupedAnagrams(
     ArrayList<String> inputStr,
     int n
   ) {

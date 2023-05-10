@@ -1,6 +1,6 @@
 public class SecondLargestElement {
 
-  public static int findSecondLargest(int[] arr) {
+  public int findSecondLargest(int[] arr) {
     if (arr.length <= 1) {
       return -1;
     }

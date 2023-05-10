@@ -1,6 +1,6 @@
 public class SymmetricMatrix {
 
-  public static boolean isMatrixSymmetric(int[][] matrix) {
+  public boolean isMatrixSymmetric(int[][] matrix) {
     int n = matrix.length;
 
     for (int i = 0; i < n; i++) {

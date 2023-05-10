@@ -6,7 +6,7 @@ public class RearrangePostiveNegative {
     arr[j] = temp;
   }
 
-  public static int[] separateNegativeAndPositive(int arr[]) {
+  public int[] separateNegativeAndPositive(int arr[]) {
     int left = 0, right = arr.length - 1;
     while (left < right) {
       if (arr[left] < 0 && arr[right] < 0) {

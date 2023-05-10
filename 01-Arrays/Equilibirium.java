@@ -1,6 +1,6 @@
 public class Equilibirium {
 
-  public static int arrayEquilibriumIndex(int[] arr) {
+  public int arrayEquilibriumIndex(int[] arr) {
     if (arr.length == 0) {
       return -1;
     }

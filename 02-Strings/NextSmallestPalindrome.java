@@ -10,7 +10,7 @@ public class NextSmallestPalindrome {
     return true;
   }
 
-  public static String nextLargestPalindrome(String str, int length) {
+  public String nextLargestPalindrome(String str, int length) {
     if (allNine(str)) {
       StringBuilder sb = new StringBuilder();
       sb.append('1');

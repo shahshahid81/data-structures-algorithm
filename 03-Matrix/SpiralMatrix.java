@@ -3,7 +3,7 @@ import java.util.List;
 
 public class SpiralMatrix {
 
-  public static void spiralPrint(int matrix[][]) {
+  public void spiralPrint(int matrix[][]) {
     if (matrix.length == 0) return;
     for (int i = 0; i < matrix.length; i++) {
       if (matrix[i].length == 0) return;
@@ -53,7 +53,7 @@ public class SpiralMatrix {
     System.out.println(sb.toString().trim());
   }
 
-  public static List<Integer> generateSpiral(int matrix[][]) {
+  public List<Integer> generateSpiral(int matrix[][]) {
     if (matrix.length == 0) return new ArrayList<>();
     for (int i = 0; i < matrix.length; i++) {
       if (matrix[i].length == 0) return new ArrayList<>();

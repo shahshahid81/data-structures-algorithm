@@ -1,6 +1,6 @@
 public class FirstMissingPositive {
 
-  public static int firstMissing(int[] nums, int n) {
+  public int firstMissing(int[] nums, int n) {
     for (int i = 0; i < n; i++) {
       if (nums[i] <= 0) {
         nums[i] = n + 1;
