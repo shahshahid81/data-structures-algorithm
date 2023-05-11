@@ -7,3 +7,4 @@
 | First Missing Positive | [Problem](https://parikh.club/parikh_arrays_5)                     | [Problem](https://leetcode.com/problems/first-missing-positive)       | [Solution](FirstMissingPositive.java) |
 | Max Sub Array          | [Problem](https://www.codingninjas.com/codestudio/problems/630526) | [Problem](https://leetcode.com/problems/maximum-subarray)             | [Solution](MaxSubArray.java)          |
 | Sort 0 1 2             | [Problem](https://www.codingninjas.com/codestudio/problems/631055) | [Problem](https://leetcode.com/problems/sort-colors)                  | [Solution](Sort012.java)              |
+| Majority Element       | [Problem](https://www.codingninjas.com/codestudio/problems/842495) | [Problem](https://leetcode.com/problems/majority-element)             | [Solution](MajorityElement.java)      |
