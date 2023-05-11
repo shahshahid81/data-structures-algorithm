@@ -1,8 +1,9 @@
-| Question               | Code Studio                                                        | Leetcode                                                               | Solution                              |
-| ---------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------- | ------------------------------------- |
-| Second Largest Element | [Problem](https://parikh.club/parikh_arrays_1)                     |                                                                        | [Solution](SecondLargestElement.java) |
-| Rotate an Array by K   | [Problem](https://parikh.club/parikh_arrays_2)                     | [Problem](https://leetcode.com/problems/rotate-array)                  | [Solution](RotateArray.java)          |
-| Non Decreasing Array   | [Problem](https://parikh.club/parikh_arrays_3)                     | [Problem](https://leetcode.com/problems/non-decreasing-array)          | [Solution](NonDecreasingArray.java)   |
+| Question               | Code Studio                                                        | Leetcode                                                              | Solution                              |
+| ---------------------- | ------------------------------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------- |
+| Second Largest Element | [Problem](https://parikh.club/parikh_arrays_1)                     |                                                                       | [Solution](SecondLargestElement.java) |
+| Rotate an Array by K   | [Problem](https://parikh.club/parikh_arrays_2)                     | [Problem](https://leetcode.com/problems/rotate-array)                 | [Solution](RotateArray.java)          |
+| Non Decreasing Array   | [Problem](https://parikh.club/parikh_arrays_3)                     | [Problem](https://leetcode.com/problems/non-decreasing-array)         | [Solution](NonDecreasingArray.java)   |
 | Equilibrium Index      | [Problem](https://parikh.club/parikh_arrays_4)                     | [Problem](https://leetcode.com/problems/find-pivot-index/description) | [Solution](Equilibirium.java)         |
 | First Missing Positive | [Problem](https://parikh.club/parikh_arrays_5)                     | [Problem](https://leetcode.com/problems/first-missing-positive)       | [Solution](FirstMissingPositive.java) |
-| Max Sub Array          | [Problem](https://www.codingninjas.com/codestudio/problems/630526) | [Problem](https://leetcode.com/problems/maximum-subarray)       | [Solution](MaxSubArray.java) |
+| Max Sub Array          | [Problem](https://www.codingninjas.com/codestudio/problems/630526) | [Problem](https://leetcode.com/problems/maximum-subarray)             | [Solution](MaxSubArray.java)          |
+| Sort 0 1 2             | [Problem](https://www.codingninjas.com/codestudio/problems/631055) | [Problem](https://leetcode.com/problems/sort-colors)                  | [Solution](Sort012.java)              |
