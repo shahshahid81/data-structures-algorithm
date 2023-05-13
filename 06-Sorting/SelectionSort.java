@@ -6,10 +6,10 @@ public class SelectionSort {
     arr[j] = temp;
   }
 
-  public void selectionSort(int arr[], int n) {
-    for (int i = 0; i < n; i++) {
+  public void selectionSort(int arr[]) {
+    for (int i = 0; i < arr.length; i++) {
       int min = i;
-      for (int j = i + 1; j < n; j++) {
+      for (int j = i + 1; j < arr.length; j++) {
         if (arr[min] > arr[j]) min = j;
       }
       swap(arr, i, min);

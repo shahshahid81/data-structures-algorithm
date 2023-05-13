@@ -1,7 +1,7 @@
 public class MajorityElement {
 
-  public int findMajority(int[] arr, int n) {
-    int count = 0, majorityElement = 0;
+  public int findMajority(int[] arr) {
+    int count = 0, majorityElement = 0, n = arr.length;
     for (int i = 0; i < n; i++) {
       if (count == 0) {
         majorityElement = arr[i];

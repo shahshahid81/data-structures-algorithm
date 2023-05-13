@@ -15,8 +15,8 @@ public class MaxSubArray {
   }
 
   // Code Studio
-  public long maxSubarraySum(int[] arr, int n) {
-    int leftSum = 0, maxSum = 0;
+  public long maxSubarraySum(int[] arr) {
+    int leftSum = 0, maxSum = 0, n = arr.length;
     for (int i = 0; i < n; i++) {
       leftSum += arr[i];
       if (leftSum < 0) leftSum = 0;

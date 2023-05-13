@@ -6,7 +6,7 @@ public class BubbleSort {
     arr[j] = temp;
   }
 
-  public void bubbleSort(int[] arr, int n) {
+  public void bubbleSort(int[] arr) {
     for (int i = 0; i < arr.length; i++) {
       boolean isSorted = true;
       for (int j = 0; j < arr.length - i - 1; j++) {

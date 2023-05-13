@@ -6,8 +6,8 @@ public class InsertionSort {
     arr[j] = temp;
   }
 
-  public void insertionSort(int n, int[] arr) {
-    for (int i = 1; i < n; i++) {
+  public void insertionSort(int[] arr) {
+    for (int i = 1; i < arr.length; i++) {
       int j = i;
       while (j - 1 >= 0 && arr[j] < arr[j - 1]) swap(arr, j, --j);
     }
