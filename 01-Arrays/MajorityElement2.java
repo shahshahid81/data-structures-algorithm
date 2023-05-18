@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class MajorityElement2 {
 
-  public static ArrayList<Integer> majorityElementII(ArrayList<Integer> arr) {
+  public ArrayList<Integer> majorityElementII(ArrayList<Integer> arr) {
     ArrayList<Integer> result = new ArrayList<>();
     int n = arr.size();
 

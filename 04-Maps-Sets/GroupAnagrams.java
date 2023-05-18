@@ -3,7 +3,7 @@ import java.util.HashMap;
 
 public class GroupAnagrams {
 
-  private static String generateKey(String str) {
+  private String generateKey(String str) {
     char[] temp = new char[26];
     for (char ch : str.toCharArray()) temp[ch - 'a']++;
     return new String(temp);

@@ -1,6 +1,6 @@
 public class NextSmallestPalindrome {
 
-  private static boolean allNine(String str) {
+  private boolean allNine(String str) {
     int n = str.length();
     for (int i = 0; i < n; i++) {
       if (str.charAt(i) != '9') {

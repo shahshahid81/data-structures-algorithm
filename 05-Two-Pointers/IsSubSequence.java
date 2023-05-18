@@ -1,6 +1,6 @@
 public class IsSubSequence {
 
-  private static int indexOf(String str, char ch, int startIndex) {
+  private int indexOf(String str, char ch, int startIndex) {
     int n = str.length();
 
     for (int i = startIndex; i < n; i++) {

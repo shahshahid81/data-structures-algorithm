@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class SumOfZeroes {
 
-  private static boolean isIndexValid(int index, int length) {
+  private boolean isIndexValid(int index, int length) {
     return index >= 0 && index < length;
   }
 

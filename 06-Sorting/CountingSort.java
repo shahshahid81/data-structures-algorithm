@@ -1,6 +1,6 @@
 public class CountingSort {
 
-  public static int[] sort(int arr[]) {
+  public int[] sort(int arr[]) {
     int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
     for (int i = 0; i < arr.length; i++) {
       min = Math.min(min, arr[i]);

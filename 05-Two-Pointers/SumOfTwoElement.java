@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class SumOfTwoElement {
 
-  private static ArrayList<Integer> twoSum(int[] arr, int k) {
+  private ArrayList<Integer> twoSum(int[] arr, int k) {
     int low = 0, high = arr.length - 1;
     ArrayList<Integer> result = new ArrayList<>();
 
@@ -30,8 +30,9 @@ public class SumOfTwoElement {
     return result;
   }
 
-  public static ArrayList<Integer> findTriplets(int[] arr, int n) {
+  public ArrayList<Integer> findTriplets(int[] arr) {
     ArrayList<Integer> result = new ArrayList<>();
+    int n = arr.length;
 
     Arrays.sort(arr);
     for (int i = 0; i < n; i++) {

@@ -1,6 +1,6 @@
 public class KthCharacterDecryptedString {
 
-  public static char kThCharaterOfDecryptedString(String s, Long k) {
+  public char kThCharaterOfDecryptedString(String s, Long k) {
     int currentCount = 0, n = s.length(), i = 0;
     while (i < n) {
       StringBuilder subStr = new StringBuilder();

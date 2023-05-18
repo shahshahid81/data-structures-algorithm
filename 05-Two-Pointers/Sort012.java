@@ -1,6 +1,6 @@
 public class Sort012 {
 
-  public static void sort012(int[] arr) {
+  public void sort012(int[] arr) {
     int numberOfZeroes = 0, numberOfOnes = 0;
     for (int i = 0; i < arr.length; i++) {
       if (arr[i] == 0) numberOfZeroes++; else if (arr[i] == 1) numberOfOnes++;
