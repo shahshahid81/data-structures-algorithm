@@ -11,6 +11,3 @@
 | Max Sum Circular Subarray    | [Problem](https://www.codingninjas.com/codestudio/problems/maximum-sum-circular-subarray_1264302)             | [Problem](https://leetcode.com/problems/maximum-sum-circular-subarray) | [Solution](MaximumSumSubArray.java)   |
 | Max sub array after k concat | [Problem](https://www.codingninjas.com/codestudio/problems/maximum-subarray-sum-after-k-concatenation_874513) |                                                                        | [Solution](MaxSubArrayKConcat.java)   |
 | Max Product Count            | [Problem](https://www.codingninjas.com/codestudio/problems/max-product-count_763416)                          |                                                                        | [Solution](MaxProductCount.java)      |
-
-
-
