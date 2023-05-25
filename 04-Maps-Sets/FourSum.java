@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class FourSum {
 
-  public static String fourSum(int[] arr, int target, int n) {
+  public String fourSum(int[] arr, int target, int n) {
     if (n < 4) return "No";
 
     HashMap<Integer, Integer[]> hashMap = new HashMap<>();

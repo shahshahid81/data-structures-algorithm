@@ -1,6 +1,6 @@
 public class FindKthSpiral {
 
-  public static int findKthElement(int[][] matrix, int k) {
+  public int findKthElement(int[][] matrix, int k) {
     int minRow = 0, maxRow = matrix.length - 1;
     int minCol = 0, maxCol = matrix[0].length - 1;
 

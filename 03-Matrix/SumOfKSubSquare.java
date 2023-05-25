@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class SumOfKSubSquare {
 
-  public static ArrayList<ArrayList<Integer>> sumOfKxKMatrices(
+  public ArrayList<ArrayList<Integer>> sumOfKxKMatrices(
     ArrayList<ArrayList<Integer>> arr,
     int k
   ) {

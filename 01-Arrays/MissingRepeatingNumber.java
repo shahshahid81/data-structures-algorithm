@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class MissingRepeatingNumber {
 
-  public static int[] missingAndRepeating(ArrayList<Integer> arr, int n) {
+  public int[] missingAndRepeating(ArrayList<Integer> arr, int n) {
     int repeatingElement = 0, missingElement = 0;
     for (int i = 0; i < n; i++) {
       int index = Math.abs(arr.get(i)) - 1;
