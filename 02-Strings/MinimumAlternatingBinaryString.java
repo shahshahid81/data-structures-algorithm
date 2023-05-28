@@ -1,23 +1,24 @@
 public class MinimumAlternatingBinaryString {
 
   public int makeBeautiful(String str) {
-    int zeroToOneConversion = 0, oneToZeroConversion = 0, n = str.length();
-    for (int i = 0; i < n; i += 2) {
-      if (str.charAt(i) == '0') {
-        oneToZeroConversion++;
-      } else {
-        zeroToOneConversion++;
-      }
+    int startsWithZero = 0, startsWithOne = 0, n = str.length();
 
-      if (i + 1 < n) {
-        if (str.charAt(i + 1) == '1') {
-          oneToZeroConversion++;
+    for (int i = 0; i < n; i++) {
+      if (i % 2 == 0) {
+        if (str.charAt(i) == '0') {
+          startsWithOne++;
         } else {
-          zeroToOneConversion++;
+          startsWithZero++;
+        }
+      } else {
+        if (str.charAt(i) == '0') {
+          startsWithZero++;
+        } else {
+          startsWithOne++;
         }
       }
     }
 
-    return Math.min(zeroToOneConversion, oneToZeroConversion);
+    return Math.min(startsWithZero, startsWithOne);
   }
 }
