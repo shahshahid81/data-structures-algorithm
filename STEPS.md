@@ -1,0 +1,21 @@
+Steps To Approach the Problem:
+
+- [ ] Understand the problem.
+  - Read it multiple times.
+  - Go through the sample input output.
+  - Visualize the problem.
+- [ ] Write example test cases of small to medium size only.
+- [ ] Write edge test cases.
+- [ ] Try Brute Force Approach to solve the problem.
+  - Break down the problem into sub problems.
+  - Figure out the time and space complexity as well.
+- [ ] Test the Brute Force Approach.
+- [ ] Optimize the problem. 
+  - Check for Bottlenecks, Unnecessary work, duplicate code.
+  - Break down the problem into sub problems.
+  - Use constraints from the problem or some intuition which can be used to optimize the problem.
+  - Figure out the time and space complexity as well.
+- [ ] Test the Optimized Solution.
+- [ ] Write the Code and dry run on the test cases.
+- [ ] Submit the solution.
+- [ ] Look at other's submission of the problem.
