@@ -1,0 +1,3 @@
+| Question            | Code Studio                                                                                       | Leetcode                                                     | Solution                                  |
+| ------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------- |
+| Reverse Linked List | [Problem](https://www.codingninjas.com/codestudio/problems/reverse-the-singly-linked-list_799897) | [Problem](https://leetcode.com/problems/reverse-linked-list) | [Solution](ReverseLinkedList.java) |
