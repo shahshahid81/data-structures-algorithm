@@ -1,6 +1,6 @@
 public class MergeSort {
 
-  private static int[] merge(int[] arr1, int[] arr2) {
+  private int[] merge(int[] arr1, int[] arr2) {
     int i = 0, j = 0, k = 0;
     int[] result = new int[arr1.length + arr2.length];
 
@@ -19,7 +19,7 @@ public class MergeSort {
     return result;
   }
 
-  private static int[] mergeSort(int[] arr, int low, int high) {
+  private int[] mergeSort(int[] arr, int low, int high) {
     if (low == high) {
       return new int[] { arr[low] };
     }
@@ -28,7 +28,7 @@ public class MergeSort {
     return merge(mergeSort(arr, low, mid), mergeSort(arr, mid + 1, high));
   }
 
-  public static void mergeSort(int[] arr, int n) {
+  public void mergeSort(int[] arr, int n) {
     int low = 0, high = arr.length - 1;
     int[] result = mergeSort(arr, low, high);
     for (int i = 0; i < n; i++) {

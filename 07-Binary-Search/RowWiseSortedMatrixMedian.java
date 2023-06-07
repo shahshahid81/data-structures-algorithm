@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class RowWiseSortedMatrixMedian {
 
-  public static int getMedian(ArrayList<ArrayList<Integer>> matrix) {
+  public int getMedian(ArrayList<ArrayList<Integer>> matrix) {
     int rows = matrix.size(), columns = matrix.get(0).size();
 
     int max = Integer.MIN_VALUE;

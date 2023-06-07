@@ -1,6 +1,6 @@
 public class MaximumSubMatrixSum {
 
-  private static int getMaxSum(int[] arr) {
+  private int getMaxSum(int[] arr) {
     int maxSum = Integer.MIN_VALUE, currentSum = 0;
     for (int i = 0; i < arr.length; i++) {
       currentSum += arr[i];
@@ -10,7 +10,7 @@ public class MaximumSubMatrixSum {
     return maxSum;
   }
 
-  public static int maxSumRectangle(int[][] arr, int rows, int columns) {
+  public int maxSumRectangle(int[][] arr, int rows, int columns) {
     int maxSum = Integer.MIN_VALUE;
     for (int i = 0; i < columns; i++) {
       int[] sumArray = new int[rows];

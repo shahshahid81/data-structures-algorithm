@@ -10,7 +10,7 @@ class LinkedListNode<T> {
 
 public class ReverseLinkedList {
 
-  public static LinkedListNode<Integer> reverseLinkedList(
+  public LinkedListNode<Integer> reverseLinkedList(
     LinkedListNode<Integer> head
   ) {
     if (head == null || head.next == null) {

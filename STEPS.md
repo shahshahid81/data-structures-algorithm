@@ -8,12 +8,14 @@ Steps To Approach the Problem:
 - [ ] Write edge test cases.
 - [ ] Try Brute Force Approach to solve the problem.
   - Break down the problem into sub problems.
+  - Execute every step to better understand the code.
   - Figure out the time and space complexity as well.
 - [ ] Test the Brute Force Approach.
 - [ ] Optimize the problem. 
   - Check for Bottlenecks, Unnecessary work, duplicate code.
   - Break down the problem into sub problems.
-  - Use constraints from the problem or some intuition which can be used to optimize the problem.
+  - Use constraints from the problem or some intuition which can be used to optimize the problem.\
+  - Execute every step to better understand the code.
   - Figure out the time and space complexity as well.
 - [ ] Test the Optimized Solution.
 - [ ] Write the Code and dry run on the test cases.
