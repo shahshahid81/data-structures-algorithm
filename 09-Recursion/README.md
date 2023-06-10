@@ -4,4 +4,5 @@
 | Quick Sort                            | [Problem](https://www.codingninjas.com/codestudio/problems/quick-sort_983625)                            |          | [Solution](QuickSort.java)                    |
 | Find Kth Element                      | [Problem](https://www.codingninjas.com/codestudio/problems/find-k-th-element_1214963)                    |          | [Solution](FindKthElement.java)               |
 | Binary strings with no consecutive 1s | [Problem](https://www.codingninjas.com/codestudio/problems/binary-strings-with-no-consecutive-1s_893001) |          | [Solution](BinaryStringNoConsecutiveOne.java) |
+| Family Tree                           | [Problem](https://www.codingninjas.com/codestudio/problems/family-structure_981243)                      |          | [Solution](FamilyTree.java) |
 
