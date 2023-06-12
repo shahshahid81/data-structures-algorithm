@@ -25,7 +25,7 @@ class Node {
 
 public class DeleteKthNodeFromEnd {
 
-  public static Node removeKthNode(Node head, int K) {
+  public Node removeKthNode(Node head, int K) {
     if (head == null) {
       return head;
     }

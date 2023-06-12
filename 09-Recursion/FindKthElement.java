@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class FindKthElement {
 
-  public static int findKthElement(
+  public int findKthElement(
     ArrayList<Integer> arr1,
     ArrayList<Integer> arr2,
     int k

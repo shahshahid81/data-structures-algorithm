@@ -1,6 +1,6 @@
 public class FamilyTree {
 
-  public static String kthChildNthGeneration(int n, long k) {
+  public String kthChildNthGeneration(int n, long k) {
     if (n == 1 && k == 1) {
       return "Male";
     }

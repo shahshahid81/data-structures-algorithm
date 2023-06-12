@@ -24,7 +24,7 @@ public class BinaryStringNoConsecutiveOne {
     sb.deleteCharAt(sb.length() - 1);
   }
 
-  public static ArrayList<String> generateString(int k) {
+  public ArrayList<String> generateString(int k) {
     ArrayList<String> result = new ArrayList<>();
     if (k == 0) return result;
     k--;
