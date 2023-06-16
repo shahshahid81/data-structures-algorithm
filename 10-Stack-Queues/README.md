@@ -1,0 +1,3 @@
+| Question                     | Code Studio                                                                                | Leetcode                                                              | Solution                         |
+| ---------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------- | -------------------------------- |
+| Implement Queue using Stacks | [Problem](https://www.codingninjas.com/codestudio/problems/queue-using-two-stacks_1170062) | [Problem](https://leetcode.com/problems/implement-queue-using-stacks) | [Solution](QueueUsingStack.java) |
