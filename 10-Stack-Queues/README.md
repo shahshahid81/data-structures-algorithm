@@ -4,3 +4,5 @@
 | Implement Stack using Queues | [Problem](https://www.codingninjas.com/codestudio/problems/stack-using-queue_795152)       | [Problem](https://leetcode.com/problems/implement-stack-using-queues) | [Solution](StackUsingQueue.java)  |
 | Min Stack                    | [Problem](https://www.codingninjas.com/codestudio/problems/min-stack_3843991)              | [Problem](https://leetcode.com/problems/min-stack)                    | [Solution](MinStack.java)         |
 | Valid Parentheses            | [Problem](https://www.codingninjas.com/codestudio/problems/valid-parenthesis_795104)       | [Problem](https://leetcode.com/problems/valid-parentheses)            | [Solution](ValidParantheses.java) |
+| Reverse Queue                | [Problem](https://www.codingninjas.com/codestudio/problems/reversing-a-queue_982934)       |                                                                       | [Solution](ReverseQueue.java)     |
+
