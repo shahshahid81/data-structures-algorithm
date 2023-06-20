@@ -6,3 +6,4 @@
 | Valid Parentheses            | [Problem](https://www.codingninjas.com/codestudio/problems/valid-parenthesis_795104)       | [Problem](https://leetcode.com/problems/valid-parentheses)            | [Solution](ValidParantheses.java)   |
 | Reverse Queue                | [Problem](https://www.codingninjas.com/codestudio/problems/reversing-a-queue_982934)       |                                                                       | [Solution](ReverseQueue.java)       |
 | Next Greater Element         | [Problem](https://www.codingninjas.com/codestudio/problems/799354)                         | [Problem](https://leetcode.com/problems/next-greater-element-i)       | [Solution](NextGreaterElement.java) |
+| Online Stock Span            | [Problem](https://www.codingninjas.com/codestudio/problems/span-of-ninja-coin_1475049)     | [Problem](https://leetcode.com/problems/online-stock-span)            | [Solution](OnlineStockSpan.java)    |
