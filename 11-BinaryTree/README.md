@@ -1,0 +1,3 @@
+| Question                | Code Studio                                                        | Leetcode                                                         | Solution                              |
+| ----------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------- |
+| Diameter of Binary Tree | [Problem](https://www.codingninjas.com/codestudio/problems/920552) | [Problem](https://leetcode.com/problems/diameter-of-binary-tree) | [Solution](DiameterOfBinaryTree.java) |
