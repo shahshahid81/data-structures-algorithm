@@ -1,3 +1,4 @@
-| Question                | Code Studio                                                        | Leetcode                                                         | Solution                              |
-| ----------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------- |
-| Diameter of Binary Tree | [Problem](https://www.codingninjas.com/codestudio/problems/920552) | [Problem](https://leetcode.com/problems/diameter-of-binary-tree) | [Solution](DiameterOfBinaryTree.java) |
+| Question                | Code Studio                                                        | Leetcode                                                                   | Solution                              |
+| ----------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------- | ------------------------------------- |
+| Diameter of Binary Tree | [Problem](https://www.codingninjas.com/codestudio/problems/920552) | [Problem](https://leetcode.com/problems/diameter-of-binary-tree)           | [Solution](DiameterOfBinaryTree.java) |
+| Level Order Traversal   | [Problem](https://www.codingninjas.com/codestudio/problems/796002) | [Problem](https://leetcode.com/problems/binary-tree-level-order-traversal) | [Solution](LevelOrderTraversal.java)  |
