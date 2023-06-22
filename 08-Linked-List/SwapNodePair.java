@@ -15,7 +15,7 @@ class ListNode {
   }
 }
 
-class Solution {
+public class SwapNodePair {
 
   public ListNode swapPairs(ListNode head) {
     ListNode dummy = new ListNode(-1, head);
