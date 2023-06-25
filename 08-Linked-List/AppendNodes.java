@@ -11,7 +11,7 @@ class Node {
 
 public class AppendNodes {
 
-  public static Node addNodes(Node head, int n, int m) {
+  public Node addNodes(Node head, int n, int m) {
     Node current = head;
     while (current != null) {
       for (int i = 0; i < m - 1 && current != null; i++) {

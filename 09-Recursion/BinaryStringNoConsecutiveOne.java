@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class BinaryStringNoConsecutiveOne {
 
-  private static void generateBinaryString(
+  private void generateBinaryString(
     int k,
     ArrayList<String> result,
     StringBuilder sb,

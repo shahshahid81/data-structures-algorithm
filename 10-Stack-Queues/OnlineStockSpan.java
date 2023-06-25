@@ -3,7 +3,7 @@ import java.util.Stack;
 
 public class OnlineStockSpan {
 
-  public static ArrayList<Integer> findSpans(ArrayList<Integer> price) {
+  public ArrayList<Integer> findSpans(ArrayList<Integer> price) {
     Stack<int[]> stack = new Stack<>();
     ArrayList<Integer> result = new ArrayList<>();
     for (int currentPrice : price) {

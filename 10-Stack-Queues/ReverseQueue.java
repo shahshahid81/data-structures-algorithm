@@ -3,7 +3,7 @@ import java.util.Stack;
 
 public class ReverseQueue {
 
-  public static Queue<Integer> reverseQueue(Queue<Integer> q) {
+  public Queue<Integer> reverseQueue(Queue<Integer> q) {
     Stack<Integer> stack = new Stack<>();
     while (!q.isEmpty()) {
       stack.push(q.remove());

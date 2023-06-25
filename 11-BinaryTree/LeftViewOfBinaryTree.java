@@ -18,7 +18,7 @@ class TreeNode<T> {
 
 public class LeftViewOfBinaryTree {
 
-  public static ArrayList<Integer> getLeftView(TreeNode<Integer> root) {
+  public ArrayList<Integer> getLeftView(TreeNode<Integer> root) {
     ArrayList<Integer> leftView = new ArrayList<>();
     if (root == null) {
       return leftView;

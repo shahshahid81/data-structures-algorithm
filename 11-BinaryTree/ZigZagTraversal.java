@@ -13,7 +13,7 @@ class BinaryTreeNode<T> {
 
 public class ZigZagTraversal {
 
-  public static List<Integer> zigZagTraversal(BinaryTreeNode<Integer> root) {
+  public List<Integer> zigZagTraversal(BinaryTreeNode<Integer> root) {
     ArrayList<Integer> result = new ArrayList<>();
     if (root == null) return result;
 

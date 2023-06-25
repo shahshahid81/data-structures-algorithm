@@ -11,7 +11,7 @@ class Node {
 
 public class SegregateEvenOdd {
 
-  public static Node segregateOddEven(Node head) {
+  public Node segregateOddEven(Node head) {
     if (head == null || head.next == null) {
       return head;
     }

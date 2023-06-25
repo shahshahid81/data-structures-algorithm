@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class NextGreaterElement {
 
-  public static int[] nextGreater(int[] arr, int n) {
+  public int[] nextGreater(int[] arr, int n) {
     int[] result = new int[n];
     Stack<Integer> stack = new Stack<>();
 

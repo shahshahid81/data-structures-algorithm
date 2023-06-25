@@ -16,7 +16,7 @@ class BinaryTreeNode {
 
 public class LevelOrderTraversal {
 
-  public static ArrayList<Integer> getLevelOrder(BinaryTreeNode root) {
+  public ArrayList<Integer> getLevelOrder(BinaryTreeNode root) {
     ArrayList<Integer> result = new ArrayList<>();
     if (root == null) return result;
     LinkedList<BinaryTreeNode> queue = new LinkedList<>();
