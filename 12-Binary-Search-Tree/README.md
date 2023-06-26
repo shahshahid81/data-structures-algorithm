@@ -1,0 +1,3 @@
+| Question               | Code Studio                                                    | Leetcode                                                                                | Solution                              |
+| ---------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------- |
+| Lowest Common Ancestor | [Problem](https://www.codingninjas.com/studio/problems/981280) | [Problem](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | [Solution](LowestCommonAncestor.java) |
