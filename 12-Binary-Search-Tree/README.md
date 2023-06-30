@@ -2,3 +2,4 @@
 | ---------------------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------- |
 | Lowest Common Ancestor | [Problem](https://www.codingninjas.com/studio/problems/981280)            | [Problem](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | [Solution](LowestCommonAncestor.java) |
 | Delete Node BST        | [Problem](https://www.codingninjas.com/studio/problems/bst-delete_973001) | [Problem](https://leetcode.com/problems/delete-node-in-a-bst)                           | [Solution](DeleteNode.java)           |
+| Pair Sum BST           | [Problem](https://www.codingninjas.com/studio/problems/920493)            | [Problem](https://leetcode.com/problems/two-sum-iv-input-is-a-bst)                      | [Solution](PairSum.java)              |
