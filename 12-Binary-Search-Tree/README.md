@@ -5,3 +5,4 @@
 | Pair Sum BST              | [Problem](https://www.codingninjas.com/studio/problems/920493)            | [Problem](https://leetcode.com/problems/two-sum-iv-input-is-a-bst)                      | [Solution](PairSum.java)              |
 | Valid BST                 | [Problem](https://www.codingninjas.com/studio/problems/799483)            | [Problem](https://leetcode.com/problems/validate-binary-search-tree)                    | [Solution](ValidBST.java)             |
 | Predecessor Successor BST | [Problem](https://www.codingninjas.com/studio/problems/_893049)           |                                                                                         | [Solution](PredecessorSuccessor.java) |
+| Kth Smallest              | [Problem](https://www.codingninjas.com/studio/problems/920441)            | [Problem](https://leetcode.com/problems/kth-smallest-element-in-a-bst)                  | [Solution](KthSmallest.java)          |
