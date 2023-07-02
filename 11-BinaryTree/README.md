@@ -10,3 +10,6 @@
 | Inorder Traversal of Binary Tree                      | [Problem](https://www.codingninjas.com/codestudio/problems/inorder-traversal_3839605)   | [Problem](https://leetcode.com/problems/binary-tree-inorder-traversal)                             | [Solution](InOrderTraversal.java)                     |
 | Construct Binary Tree from Pre and In Order Traversal | [Problem](https://www.codingninjas.com/codestudio/problems/920539)                      | [Problem](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | [Solution](ConstructBinaryTreeFromInandPreOrder.java) |
 | Vertical Order Traversal Binary Tree                  | [Problem](https://www.codingninjas.com/studio/problems/vertical-order-traversal_920533) |                                                                                                    | [Solution](VerticalOrderTraversal.java)               |
+| Lowest Common Ancestor of 3 Nodes                     | [Problem](https://www.codingninjas.com/studio/problems/lca-of-three-nodes_794944)       |                                                                                                    | [Solution](LowestCommonAncestorOfThree.java)          |
+
+
