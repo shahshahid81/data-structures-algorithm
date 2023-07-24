@@ -13,3 +13,6 @@
 | Lowest Common Ancestor of 3 Nodes                     | [Problem](https://www.codingninjas.com/studio/problems/lca-of-three-nodes_794944)       |                                                                                                    | [Solution](LowestCommonAncestorOfThree.java)          |
 | Flatten Binary Tree to Linked List                    | [Problem](https://www.codingninjas.com/studio/problems/1112615)                         | [Problem](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)                        | [Solution](FlattenBinaryTreeToLinkedList.java)        |
 | Flatten Binary Tree to Doubly Linked List             | [Problem](https://www.codingninjas.com/studio/problems/893106)                          |                                                                                                    | [Solution](FlattenBinaryTreeToDoublyLinkedList.java)  |
+| Merge 2 Binary Trees                                  | [Problem](https://www.codingninjas.com/studio/problems/fasdf_1263729)                   | [Problem](https://leetcode.com/problems/merge-two-binary-trees)                                    | [Solution](MergeBinaryTree.java)                      |
+
+
