@@ -11,7 +11,7 @@ Steps To Approach the Problem:
   - Execute every step to better understand the code.
   - Figure out the time and space complexity as well.
 - [ ] Test the Brute Force Approach.
-- [ ] Optimize the problem. 
+- [ ] Optimize the problem.
   - Check for Bottlenecks, Unnecessary work, duplicate code.
   - Break down the problem into sub problems.
   - Use constraints from the problem or some intuition which can be used to optimize the problem.
