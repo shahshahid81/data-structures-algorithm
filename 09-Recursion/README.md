@@ -6,3 +6,4 @@
 | Binary strings with no consecutive 1s | [Problem](https://www.codingninjas.com/codestudio/problems/binary-strings-with-no-consecutive-1s_893001) |          | [Solution](BinaryStringNoConsecutiveOne.java) |
 | Family Tree                           | [Problem](https://www.codingninjas.com/codestudio/problems/family-structure_981243)                      |          | [Solution](FamilyTree.java)                   |
 | Tower of Hanoi                        | [Problem](https://www.codingninjas.com/studio/problems/tower-of-hanoi_981323)                            |          | [Solution](TowerOfHanoi.java)                 |
+| Closest Distance Pair                 | [Problem](https://www.codingninjas.com/studio/problems/minimum-distance-points_630518)                   |          | [Solution](ClosestDistancePair.java)          |
