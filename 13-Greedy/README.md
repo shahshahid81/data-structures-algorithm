@@ -1,4 +1,5 @@
-| Question                      | Code Studio                                                             | Leetcode                                             | Solution                            |
-| ----------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------- | ----------------------------------- |
-| Fractional Knapsack           | [Problem](https://www.codingninjas.com/studio/problems/975286)          |                                                      | [Solution](FractionalKnapsack.java) |
-| Gas Tank / Max units in truck | [Problem](https://www.codingninjas.com/studio/problems/gas-tank_699834) | [Problem](https://leetcode.com/problems/gas-station) | [Solution](GasTank.java)            |
+| Question               | Code Studio                                                                            | Leetcode                                             | Solution                              |
+| ---------------------- | -------------------------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------- |
+| Fractional Knapsack    | [Problem](https://www.codingninjas.com/studio/problems/975286)                         |                                                      | [Solution](FractionalKnapsack.java)   |
+| Gas Tank               | [Problem](https://www.codingninjas.com/studio/problems/gas-tank_699834)                | [Problem](https://leetcode.com/problems/gas-station) | [Solution](GasTank.java)              |
+| Job Sequencing Problem | [Problem](https://www.codingninjas.com/studio/problems/job-sequencing-problem_1169460) |                                                      | [Solution](JobSequenceMaxProfit.java) |
