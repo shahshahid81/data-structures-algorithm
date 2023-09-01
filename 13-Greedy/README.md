@@ -4,3 +4,4 @@
 | Gas Tank               | [Problem](https://www.codingninjas.com/studio/problems/gas-tank_699834)                | [Problem](https://leetcode.com/problems/gas-station)              | [Solution](GasTank.java)              |
 | Job Sequencing Problem | [Problem](https://www.codingninjas.com/studio/problems/job-sequencing-problem_1169460) |                                                                   | [Solution](JobSequenceMaxProfit.java) |
 | Next Greater Number    | [Problem](https://www.codingninjas.com/studio/problems/next-greater-number_980529)     | [Problem](https://leetcode.com/problems/next-greater-element-iii) | [Solution](NextGreaterNumber.java)    |
+| Minimum cash flow      | [Problem](https://www.codingninjas.com/studio/problems/minimum-cash-flow_975372)       |                                                                   | [Solution](MinimumCashFlow.java)      |
