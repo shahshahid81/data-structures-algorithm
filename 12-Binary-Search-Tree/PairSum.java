@@ -19,7 +19,7 @@ class TreeNode {
   }
 }
 
-class Solution {
+public class PairSum {
 
   public boolean findTarget(TreeNode root, int k) {
     HashSet<Integer> hashSet = new HashSet<>();
