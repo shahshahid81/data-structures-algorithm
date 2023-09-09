@@ -1,3 +1,4 @@
-| Question                                   | Code Studio                                                                                               | Leetcode | Solution                                       |
-| ------------------------------------------ | --------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------- |
-| Smallest Subarray With K Distinct Elements | [Problem](https://www.codingninjas.com/studio/problems/smallest-subarray-with-k-distinct-elements_630523) |          | [Solution](SmallestSubArrayWithKDistinct.java) |
+| Question                                      | Code Studio                                                                                                  | Leetcode | Solution                                       |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | -------- | ---------------------------------------------- |
+| Smallest Subarray With K Distinct Elements    | [Problem](https://www.codingninjas.com/studio/problems/smallest-subarray-with-k-distinct-elements_630523)    |          | [Solution](SmallestSubArrayWithKDistinct.java) |
+| Count Distinct Element in Every K Size Window | [Problem](https://www.codingninjas.com/studio/problems/count-distinct-element-in-every-k-size-window_920336) |          | [Solution](CountKDistinct.java)                |
