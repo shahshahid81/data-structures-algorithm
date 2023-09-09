@@ -9,3 +9,4 @@
 | Online Stock Span            | [Problem](https://www.codingninjas.com/codestudio/problems/span-of-ninja-coin_1475049)     | [Problem](https://leetcode.com/problems/online-stock-span)            | [Solution](OnlineStockSpan.java)      |
 | Linked List Palindrome       | [Problem](https://www.codingninjas.com/studio/problems/799352)                             | [Problem](https://leetcode.com/problems/palindrome-linked-list)       | [Solution](LinkedListPalindrome.java) |
 | Sort Stack                   | [Problem](https://www.codingninjas.com/studio/problems/sort-a-stack_985275)                |                                                                       | [Solution](SortStack.java)            |
+| Implement Deque              | [Problem](https://www.codingninjas.com/studio/problems/deque_1170059)                      |                                                                       | [Solution](Deque.java)                |
