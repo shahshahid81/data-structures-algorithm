@@ -2,3 +2,4 @@
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
 | Implement a priority queue   | [Problem](https://www.codingninjas.com/studio/problems/implement-a-priority-queue-using-heap-and-also-implement-getmaxelement-in-the-queue_1743878) |          | [Solution](ImplementPriorityQueue.java) |
 | Convert Min-Heap to Max-Heap | [Problem](https://www.codingninjas.com/studio/problems/convert-min-heap-to-max-heap_630293)                                                         |          | [Solution](MinHeapToMaxHeap.java)       |
+| Kth Smallest and Largest     | [Problem](https://www.codingninjas.com/studio/problems/kth-smallest-and-largest-element-of-array_1115488)                                           |          | [Solution](KSmallestAndLargest.java)    |
