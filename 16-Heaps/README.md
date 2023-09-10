@@ -1,0 +1,3 @@
+| Question                   | Code Studio                                                                                                                                         | Leetcode | Solution                                |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
+| Implement a priority queue | [Problem](https://www.codingninjas.com/studio/problems/implement-a-priority-queue-using-heap-and-also-implement-getmaxelement-in-the-queue_1743878) |          | [Solution](ImplementPriorityQueue.java) |
