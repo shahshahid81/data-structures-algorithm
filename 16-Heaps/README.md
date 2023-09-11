@@ -4,3 +4,4 @@
 | Convert Min-Heap to Max-Heap | [Problem](https://www.codingninjas.com/studio/problems/convert-min-heap-to-max-heap_630293)                                                         |          | [Solution](MinHeapToMaxHeap.java)       |
 | Kth Smallest and Largest     | [Problem](https://www.codingninjas.com/studio/problems/kth-smallest-and-largest-element-of-array_1115488)                                           |          | [Solution](KSmallestAndLargest.java)    |
 | K-th Largest Sum Subarray    | [Problem](https://www.codingninjas.com/studio/problems/k-th-largest-sum-contiguous-subarray_920398)                                                 |          | [Solution](KthLargestSubArraySum.java)  |
+| Merge K Sorted Arrays        | [Problem](https://www.codingninjas.com/studio/problems/merge-k-sorted-arrays_975379)                                                                |          | [Solution](MergeKSortedArray.java)      |
