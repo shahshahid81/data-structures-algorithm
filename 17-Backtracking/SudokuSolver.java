@@ -1,4 +1,4 @@
-class Solution {
+public class SudokuSolver {
 
   private final int n = 9;
 
