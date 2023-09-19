@@ -1,0 +1,3 @@
+| Question        | Code Studio                                                                                   | Leetcode                                                 | Solution                     |
+| --------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ---------------------------- |
+| Climbing Stairs | [Problem](https://www.codingninjas.com/studio/problems/count-ways-to-reach-nth-stairs_798650) | [Problem](https://leetcode.com/problems/climbing-stairs) | [Solution](ClimbStairs.java) |
