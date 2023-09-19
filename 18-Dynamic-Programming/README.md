@@ -1,3 +1,4 @@
 | Question        | Code Studio                                                                                   | Leetcode                                                 | Solution                     |
 | --------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ---------------------------- |
 | Climbing Stairs | [Problem](https://www.codingninjas.com/studio/problems/count-ways-to-reach-nth-stairs_798650) | [Problem](https://leetcode.com/problems/climbing-stairs) | [Solution](ClimbStairs.java) |
+| House Robber    | [Problem](https://www.codingninjas.com/studio/problems/loot-houses_630510)                    | [Problem](https://leetcode.com/problems/house-robber)    | [Solution](HouseRobber.java) |
