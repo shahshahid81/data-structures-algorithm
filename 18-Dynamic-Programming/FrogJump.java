@@ -1,6 +1,6 @@
-import java.util.Arrays;
-
 // https://takeuforward.org/data-structure/dynamic-programming-frog-jump-dp-3/
+
+import java.util.Arrays;
 
 class FrogJumpRecursion {
 
