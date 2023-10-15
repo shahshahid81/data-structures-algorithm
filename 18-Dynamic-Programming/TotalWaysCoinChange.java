@@ -1,29 +1,76 @@
-public class TotalWaysCoinChange {
+import java.util.Arrays;
 
-  public int change(int amount, int[] coins) {
-    int n = coins.length;
-    int[] previous = new int[amount + 1];
+class TotalWaysCoinChangeRecursionMemoization {
 
-    for (int currentAmount = 0; currentAmount <= amount; currentAmount++) {
-      previous[currentAmount] = currentAmount % coins[0] == 0 ? 1 : 0;
+  public static long countWaysToMakeChange(int denominations[], int value) {
+    long[][] dp = new long[value + 1][denominations.length];
+    for (long[] row : dp) {
+      Arrays.fill(row, -1);
+    }
+    return countWaysToMakeChange(denominations, value, 0, dp);
+  }
+
+  private static long countWaysToMakeChange(
+    int[] denominations,
+    int value,
+    int index,
+    long[][] dp
+  ) {
+    if (value < 0) {
+      return 0;
     }
 
-    for (int i = 1; i < n; i++) {
-      int[] cur = new int[amount + 1];
+    if (dp[value][index] != -1) {
+      return dp[value][index];
+    }
 
-      for (int currentAmount = 0; currentAmount <= amount; currentAmount++) {
-        int notTake = previous[currentAmount];
-        int take = 0;
+    if (value == 0) {
+      return dp[value][index] = 1;
+    }
 
-        if (coins[i] <= currentAmount) {
-          take = cur[currentAmount - coins[i]];
+    long ways = 0;
+    for (int i = index; i < denominations.length; i++) {
+      long result = countWaysToMakeChange(
+        denominations,
+        value - denominations[i],
+        i,
+        dp
+      );
+
+      ways += result;
+    }
+    return dp[value][index] = ways;
+  }
+}
+
+class TotalWaysCoinChangeTabulation {
+
+  public static long countWaysToMakeChange(int denominations[], int value) {
+    long[][] dp = new long[value + 1][denominations.length];
+    for (long[] row : dp) {
+      Arrays.fill(row, -1);
+    }
+
+    for (int i = 0; i < denominations.length; i++) {
+      dp[0][i] = 1;
+    }
+
+    for (int currentValue = 1; currentValue <= value; currentValue++) {
+      for (int j = 0; j < denominations.length; j++) {
+        long result = 0;
+        if (currentValue - denominations[j] == 0) {
+          result += 1;
+        } else if (currentValue - denominations[j] > 0) {
+          result += dp[currentValue - denominations[j]][j];
         }
 
-        cur[currentAmount] = take + notTake;
+        if (j > 0) {
+          result += dp[currentValue][j - 1];
+        }
+        dp[currentValue][j] = result;
       }
-      previous = cur;
     }
 
-    return previous[amount];
+    return dp[value][denominations.length - 1];
   }
 }
