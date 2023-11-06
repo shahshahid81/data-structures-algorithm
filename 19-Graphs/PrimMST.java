@@ -1,68 +1,55 @@
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
-class Node implements Comparator<Node> {
+class Pair {
 
-  int value;
-  int weight;
+  int node, weight, parent;
 
-  Node(int value, int weight) {
-    this.value = value;
+  Pair(int node, int weight, int parent) {
+    this.node = node;
     this.weight = weight;
-  }
-
-  Node() {}
-
-  public int compare(Node a, Node b) {
-    if (a.weight < b.weight) {
-      return -1;
-    } else if (a.weight > b.weight) {
-      return 1;
-    }
-    return 0;
+    this.parent = parent;
   }
 }
 
 public class PrimMST {
 
-  static ArrayList<ArrayList<Integer>> primMST(
-    ArrayList<ArrayList<Node>> graph,
+  private static ArrayList<ArrayList<Integer>> primsMST(
+    ArrayList<ArrayList<Integer>> adjacencyList,
     int n
   ) {
-    int[] path = new int[n];
-    int[] weight = new int[n];
-    boolean[] mst = new boolean[n];
-    for (int i = 0; i < n; i++) {
-      weight[i] = Integer.MAX_VALUE;
-      mst[i] = false;
-    }
-
-    PriorityQueue<Node> pq = new PriorityQueue<>(n, new Node());
-    pq.add(new Node(0, 0));
-    weight[0] = 0;
-
-    while (!pq.isEmpty()) {
-      Node node = pq.poll();
-      mst[node.value] = true;
-      for (Node i : graph.get(node.value)) {
-        if (!mst[i.value] && weight[i.value] > i.weight) {
-          weight[i.value] = i.weight;
-          pq.add(new Node(i.value, i.weight));
-          path[i.value] = node.value;
-        }
-      }
-    }
+    PriorityQueue<Pair> pq = new PriorityQueue<Pair>((a, b) ->
+      a.weight - b.weight
+    );
+    boolean[] visited = new boolean[n];
     ArrayList<ArrayList<Integer>> result = new ArrayList<>();
 
-    for (int i = 0; i < n; i++) {
-      result.add(new ArrayList<>());
+    pq.add(new Pair(0, 0, -1));
 
-      result.get(i).add(i + 1);
-      result.get(i).add(path[i] + 1);
-      result.get(i).add(weight[i]);
+    while (!pq.isEmpty()) {
+      Pair pair = pq.poll();
+      int node = pair.node;
+      if (visited[node]) {
+        continue;
+      }
+
+      visited[node] = true;
+      for (int i = 0; i < n; i++) {
+        int neighbour = adjacencyList.get(node).get(i);
+        if (neighbour != 0 && !visited[i]) {
+          pq.add(new Pair(i, neighbour, node));
+        }
+      }
+
+      if (pair.parent != -1) {
+        ArrayList<Integer> row = new ArrayList<>();
+        row.add(node + 1);
+        row.add(pair.parent + 1);
+        row.add(adjacencyList.get(node).get(pair.parent));
+        result.add(row);
+      }
     }
-    result.remove(0);
+
     return result;
   }
 
@@ -71,20 +58,25 @@ public class PrimMST {
     int m,
     ArrayList<ArrayList<Integer>> g
   ) {
-    ArrayList<ArrayList<Node>> graph = new ArrayList<>();
+    ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
+
     for (int i = 0; i < n; i++) {
-      graph.add(new ArrayList<>());
+      ArrayList<Integer> row = new ArrayList<>();
+      for (int j = 0; j < n; j++) {
+        row.add(0);
+      }
+      graph.add(row);
     }
 
     for (int i = 0; i < m; i++) {
-      graph
-        .get(g.get(i).get(0) - 1)
-        .add(new Node(g.get(i).get(1) - 1, g.get(i).get(2)));
-      graph
-        .get(g.get(i).get(1) - 1)
-        .add(new Node(g.get(i).get(0) - 1, g.get(i).get(2)));
+      int source = g.get(i).get(0) - 1;
+      int destination = g.get(i).get(1) - 1;
+      int weight = g.get(i).get(2);
+
+      graph.get(source).set(destination, weight);
+      graph.get(destination).set(source, weight);
     }
 
-    return primMST(graph, n);
+    return primsMST(graph, n);
   }
 }
