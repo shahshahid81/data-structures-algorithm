@@ -2,16 +2,16 @@ import java.util.Arrays;
 
 public class LongestPalindromicSubstring {
 
-  public static String longestPalinSubstring(String str) {
+  public String longestPalindrome(String str) {
     int n = str.length();
     String[][] dp = new String[n][n];
     for (String[] row : dp) {
       Arrays.fill(row, "");
     }
-    return longestPalinSubstring(str, 0, n - 1, dp);
+    return longestPalindrome(str, 0, n - 1, dp);
   }
 
-  private static String longestPalinSubstring(
+  private String longestPalindrome(
     String str,
     int start,
     int end,
@@ -29,13 +29,13 @@ public class LongestPalindromicSubstring {
       return str.substring(start, end + 1);
     }
 
-    String left = longestPalinSubstring(str, start, end - 1, dp);
-    String right = longestPalinSubstring(str, start + 1, end, dp);
+    String left = longestPalindrome(str, start, end - 1, dp);
+    String right = longestPalindrome(str, start + 1, end, dp);
 
     return dp[start][end] = left.length() >= right.length() ? left : right;
   }
 
-  private static boolean isPalindrome(String str, int start, int end) {
+  private boolean isPalindrome(String str, int start, int end) {
     while (start < end) {
       if (str.charAt(start) != str.charAt(end)) {
         return false;
