@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class LongestBitonicSubSequence {
 
   public static int longestBitonicSequence(int[] arr, int n) {
