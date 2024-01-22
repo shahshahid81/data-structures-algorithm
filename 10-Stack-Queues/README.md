@@ -10,3 +10,4 @@
 | Linked List Palindrome       | [Problem](https://www.codingninjas.com/studio/problems/799352)                             | [Problem](https://leetcode.com/problems/palindrome-linked-list)       | [Solution](LinkedListPalindrome.java) |
 | Sort Stack                   | [Problem](https://www.codingninjas.com/studio/problems/sort-a-stack_985275)                |                                                                       | [Solution](SortStack.java)            |
 | Implement Deque              | [Problem](https://www.codingninjas.com/studio/problems/deque_1170059)                      |                                                                       | [Solution](Deque.java)                |
+| Max Equal Stack Sum          | [Problem](https://www.codingninjas.com/studio/problems/maximum-equal-stack-sum_1062571)    |                                                                       | [Solution](MaxEqualStackSum.java)     |
