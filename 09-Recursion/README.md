@@ -7,3 +7,4 @@
 | Family Tree                           | [Problem](https://www.codingninjas.com/codestudio/problems/family-structure_981243)                      |          | [Solution](FamilyTree.java)                   |
 | Tower of Hanoi                        | [Problem](https://www.codingninjas.com/studio/problems/tower-of-hanoi_981323)                            |          | [Solution](TowerOfHanoi.java)                 |
 | Closest Distance Pair                 | [Problem](https://www.codingninjas.com/studio/problems/minimum-distance-points_630518)                   |          | [Solution](ClosestDistancePair.java)          |
+| Sorted Matrix                         | [Problem](https://www.codingninjas.com/studio/problems/sorted-matrix_758931)                             |          | [Solution](SortedMatrix.java)                 |
