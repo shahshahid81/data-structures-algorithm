@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class BuySellStock {
+public class BuySellStock3 {
 
   public int maxProfit(int[] prices) {
     int n = prices.length;
