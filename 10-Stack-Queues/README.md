@@ -11,3 +11,4 @@
 | Sort Stack                   | [Problem](https://www.codingninjas.com/studio/problems/sort-a-stack_985275)                |                                                                       | [Solution](SortStack.java)            |
 | Implement Deque              | [Problem](https://www.codingninjas.com/studio/problems/deque_1170059)                      |                                                                       | [Solution](Deque.java)                |
 | Max Equal Stack Sum          | [Problem](https://www.codingninjas.com/studio/problems/maximum-equal-stack-sum_1062571)    |                                                                       | [Solution](MaxEqualStackSum.java)     |
+| Word Ladder                  | [Problem](https://www.codingninjas.com/studio/problems/word-ladder_1102319)                | [Problem](https://leetcode.com/problems/word-ladder)                  | [Solution](MaxEqualStackSum.java)     |
